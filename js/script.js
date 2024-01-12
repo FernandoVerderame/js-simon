@@ -7,6 +7,23 @@ const numbers = document.getElementById('random-numbers');
 const randomNumbers = [];
 
 
+// ! FUNZIONE 
+// Chiedo all'utente di indovinare i 5 numeri
+const answers = () => {
+
+    const userNumbers = [];
+    console.log(userNumbers);
+  
+    for (let j = 0; j < 5; j++) {
+        number = parseInt(prompt('Inserisci un numero da 1 a 99!'));
+        userNumbers.push(number);
+    }
+
+    return userNumbers;
+}
+
+
+
 // Template Literal
 let listItems = '<ul class="five-numbers">';
 
@@ -40,6 +57,9 @@ const countdown = setInterval(() => {
         // Faccio sparire i numeri random
         numbers.classList.add('d-none');
         clearInterval(countdown);
+
+        // Invoco la funzione dei prompt dopo un tot
+        setTimeout(answers, 300);
 
     }     
     
