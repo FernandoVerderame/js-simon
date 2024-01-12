@@ -21,3 +21,8 @@ listItems += '</ul>';
 
 // Inserisco in pagina i 5 numeri casuali
 numbers.innerHTML = listItems;
+
+
+// Inizializzo i secondi
+let seconds = 5;
+timer.innerText = seconds;
