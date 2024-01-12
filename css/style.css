@@ -1,0 +1,14 @@
+.clock {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.five-numbers {
+    list-style-type: none;
+    font-size: 50px;
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
