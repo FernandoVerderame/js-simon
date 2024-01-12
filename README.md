@@ -14,3 +14,18 @@ BONUS:
 Come detto, le validazioni
 Volendo, potreste provare a farlo con degli input che compaiono in pagina dopo che scompaiono i numeri, invece che coi prompt
 Buon lavoro e buon weekend!
+
+
+
+
+
+## SCALETTA 
+
+1. Recupero gli elementi
+2. Creo un array di 5 numeri casuali
+3. Genero 5 numeri casuali e li inserisco in pagina
+4. Inizializzo i secondi del countdown
+5. Creo una funzione per il countdown
+6. Creo una funzione per domandare all'utente i numeri
+7. Inserisco i numeri in un altro array
+8. Confronto quelli giusti e quelli sbagliati per calcolare il punteggio finale
