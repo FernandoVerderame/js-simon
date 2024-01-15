@@ -16,9 +16,18 @@ const answers = () => {
   
     for (let j = 0; j < 5; j++) {
         number = parseInt(prompt('Inserisci un numero da 1 a 99!'));
-        userNumbers.push(number);
-    }
+        
+        for (let f = 0; f < randomNumbers.length; f++) {
 
+            if (number === randomNumbers[f]) {
+                userNumbers.push(number);
+            }
+
+        }
+    }
+    
+    alert('Hai totalizzato: ' + userNumbers.length + ' punti! Hai indovinato: ' + userNumbers)
+    console.log(userNumbers);
     return userNumbers;
 }
 
