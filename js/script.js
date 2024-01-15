@@ -7,7 +7,7 @@ const numbers = document.getElementById('random-numbers');
 const randomNumbers = [];
 
 
-// ! FUNZIONE 
+// ! FUNZIONE (prompt 5 numeri)
 // Chiedo all'utente di indovinare i 5 numeri
 const answers = () => {
 
@@ -53,7 +53,7 @@ numbers.innerHTML = listItems;
 let seconds = 5;
 timer.innerText = seconds;
 
-// ! FUNZIONE COUNTDOWN
+// ! FUNZIONE COUNTDOWN (timing function)
 const countdown = setInterval(() => {
 
     // Decremento il timer
