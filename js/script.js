@@ -50,7 +50,7 @@ numbers.innerHTML = listItems;
 
 
 // Inizializzo i secondi
-let seconds = 5;
+let seconds = 30;
 timer.innerText = seconds;
 
 // ! FUNZIONE COUNTDOWN (timing function)
